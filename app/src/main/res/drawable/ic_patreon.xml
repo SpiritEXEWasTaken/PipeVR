@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PipeVR: Patreon service icon (circle + bar) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#FF424D"
+        android:pathData="M15,2.5a6.5,6.5 0,1 0,0 13a6.5,6.5 0,1 0,0 -13z" />
+    <path android:fillColor="#FF424D" android:pathData="M3,2.5h3.5v19H3z" />
+</vector>

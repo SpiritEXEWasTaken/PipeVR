@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PipeVR: the Subscriptions page's inner area (must stay the same across restores) -->
+    <item name="pipevr_subs_container" type="id" />
+</resources>

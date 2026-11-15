@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PipeVR: Material 3 versions of the app themes (generated; edit the originals
+     and re-run the generator). Picked by ThemeHelper when Material 3 is on. -->
+<resources>
+    <style name="M3.Base" parent="M3.Base.V27">
+    </style>
+    <style name="M3.Base.BlackTheme" parent="M3.Base.V27.BlackTheme">
+    </style>
+    <style name="M3.Base.DarkTheme" parent="M3.Base.V27.DarkTheme">
+    </style>
+    <style name="M3.Base.LightTheme" parent="M3.Base.V27.LightTheme">
+    </style>
+    <style name="M3.Base.V27" parent="M3.Base.V19">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="M3.Base.V27.BlackTheme" parent="M3.Base.V19.BlackTheme">
+    </style>
+    <style name="M3.Base.V27.DarkTheme" parent="M3.Base.V19.DarkTheme">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="M3.Base.V27.LightTheme" parent="M3.Base.V19.LightTheme">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

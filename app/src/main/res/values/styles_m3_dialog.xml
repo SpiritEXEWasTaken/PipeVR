@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PipeVR: AppCompat AlertDialogs drawn in the Material 3 shape and colors -->
+    <style name="PipeVR.M3.AlertDialog" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/m3_dialog_background</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Material3.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.Material3.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.Material3.Button.TextButton.Dialog.Flush</item>
+    </style>
+
+    <!-- PipeVR: settings switches drawn as Material 3 switches -->
+    <style name="PipeVR.M3.SwitchPreference" parent="@style/Preference.SwitchPreferenceCompat.Material">
+        <item name="widgetLayout">@layout/pipevr_m3_preference_switch</item>
+    </style>
+    <style name="PipeVR.M3.PreferenceTheme" parent="@style/PreferenceThemeOverlay">
+        <item name="switchPreferenceCompatStyle">@style/PipeVR.M3.SwitchPreference</item>
+    </style>
+</resources>

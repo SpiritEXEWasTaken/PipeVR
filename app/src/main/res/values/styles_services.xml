@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- YouTube -->
+    <style name="LightTheme.YouTube" parent="LightTheme" tools:keep="@style/LightTheme_YouTube" />
+
+    <style name="DarkTheme.YouTube" parent="DarkTheme" tools:keep="@style/DarkTheme_YouTube" />
+
+    <style name="BlackTheme.YouTube" parent="BlackTheme" tools:keep="@style/BlackTheme_YouTube" />
+
+    <!-- SoundCloud -->
+    <style name="LightTheme.SoundCloud" parent="LightTheme" tools:keep="@style/LightTheme_SoundCloud">
+        <item name="colorPrimary">@color/light_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_soundcloud_dark_color</item>
+        <item name="colorAccent">@color/light_soundcloud_accent_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_soundcloud_horizontal_light
+        </item>
+    </style>
+
+    <style name="DarkTheme.SoundCloud" parent="DarkTheme" tools:keep="@style/DarkTheme_SoundCloud">
+        <item name="colorPrimary">@color/dark_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_soundcloud_dark_color</item>
+        <item name="colorAccent">@color/dark_soundcloud_accent_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_soundcloud_horizontal_dark
+        </item>
+    </style>
+
+    <style name="BlackTheme.SoundCloud" parent="BlackTheme" tools:keep="@style/BlackTheme_SoundCloud">
+        <item name="colorPrimary">@color/dark_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_soundcloud_dark_color</item>
+        <item name="colorAccent">@color/dark_soundcloud_accent_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_soundcloud_horizontal_dark
+        </item>
+    </style>
+
+    <!-- PeerTube -->
+    <style name="LightTheme.PeerTube" parent="LightTheme" tools:keep="@style/LightTheme_PeerTube">
+        <item name="colorPrimary">@color/light_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_peertube_dark_color</item>
+        <item name="colorAccent">@color/light_peertube_accent_color</item>
+    </style>
+
+    <style name="DarkTheme.PeerTube" parent="DarkTheme" tools:keep="@style/DarkTheme_PeerTube">
+        <item name="colorPrimary">@color/dark_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_peertube_dark_color</item>
+        <item name="colorAccent">@color/dark_peertube_accent_color</item>
+    </style>
+
+    <style name="BlackTheme.PeerTube" parent="BlackTheme" tools:keep="@style/BlackTheme_PeerTube">
+        <item name="colorPrimary">@color/dark_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_peertube_dark_color</item>
+        <item name="colorAccent">@color/dark_peertube_accent_color</item>
+    </style>
+
+    <!-- media.ccc.de -->
+    <style name="LightTheme.media.ccc.de" parent="LightTheme" tools:keep="@style/LightTheme_media_ccc_de">
+        <item name="colorPrimary">@color/light_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/light_media_ccc_accent_color</item>
+    </style>
+
+    <style name="DarkTheme.media.ccc.de" parent="DarkTheme" tools:keep="@style/DarkTheme_media_ccc_de">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+
+    <style name="BlackTheme.media.ccc.de" parent="BlackTheme" tools:keep="@style/BlackTheme_media_ccc_de">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+
+    <!-- Bandcamp -->
+    <style name="LightTheme.Bandcamp" parent="LightTheme" tools:keep="@style/LightTheme_Bandcamp">
+        <item name="colorPrimary">@color/light_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/light_bandcamp_accent_color</item>
+    </style>
+
+    <style name="DarkTheme.Bandcamp" parent="DarkTheme" tools:keep="@style/DarkTheme_Bandcamp">
+        <item name="colorPrimary">@color/dark_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bandcamp_accent_color</item>
+    </style>
+
+    <style name="BlackTheme.Bandcamp" parent="BlackTheme" tools:keep="@style/BlackTheme_Bandcamp">
+        <item name="colorPrimary">@color/dark_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bandcamp_accent_color</item>
+    </style>
+
+    <!-- BiliBili -->
+    <style name="LightTheme.BiliBili" parent="LightTheme" tools:keep="@style/LightTheme_Bandcamp">
+        <item name="colorPrimary">@color/light_bilibili_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_bilibili_statusbar_color</item>
+        <item name="colorAccent">@color/light_bilibili_accent_color</item>
+    </style>
+
+    <style name="DarkTheme.BiliBili" parent="DarkTheme" tools:keep="@style/DarkTheme_Bandcamp">
+        <item name="colorPrimary">@color/dark_bilibili_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bilibili_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bilibili_accent_color</item>
+    </style>
+
+    <style name="BlackTheme.BiliBili" parent="BlackTheme" tools:keep="@style/BlackTheme_Bandcamp">
+        <item name="colorPrimary">@color/dark_bilibili_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bilibili_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bilibili_accent_color</item>
+    </style>
+
+    <!-- media.ccc.de -->
+    <style name="LightTheme.NicoNico" parent="LightTheme" tools:keep="@style/LightTheme_media_ccc_de">
+        <item name="colorPrimary">@color/light_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/light_media_ccc_accent_color</item>
+    </style>
+
+    <style name="DarkTheme.NicoNico" parent="DarkTheme" tools:keep="@style/DarkTheme_media_ccc_de">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+
+    <style name="BlackTheme.NicoNico" parent="BlackTheme" tools:keep="@style/BlackTheme_media_ccc_de">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+
+    <!-- collector -->
+    <style name="LightTheme.Collector" parent="LightTheme">
+        <item name="colorPrimary">@color/light_collector_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_collector_statusbar_color</item>
+        <item name="colorAccent">@color/light_collector_accent_color</item>
+    </style>
+
+    <style name="DarkTheme.Collector" parent="DarkTheme" >
+        <item name="colorPrimary">@color/dark_collector_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_collector_statusbar_color</item>
+        <item name="colorAccent">@color/dark_collector_accent_color</item>
+    </style>
+
+    <style name="BlackTheme.Collector" parent="BlackTheme">
+        <item name="colorPrimary">@color/dark_collector_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_collector_statusbar_color</item>
+        <item name="colorAccent">@color/dark_collector_accent_color</item>
+    </style>
+
+    <!-- PipeVR: Twitch -->
+    <style name="LightTheme.Twitch" parent="LightTheme">
+        <item name="colorPrimary">#9146FF</item>
+        <item name="colorPrimaryDark">#772CE8</item>
+        <item name="colorAccent">#9146FF</item>
+    </style>
+
+    <style name="DarkTheme.Twitch" parent="DarkTheme">
+        <item name="colorPrimary">#5C2EA8</item>
+        <item name="colorPrimaryDark">#45227E</item>
+        <item name="colorAccent">#BF94FF</item>
+    </style>
+
+    <style name="BlackTheme.Twitch" parent="BlackTheme">
+        <item name="colorPrimary">#5C2EA8</item>
+        <item name="colorPrimaryDark">#45227E</item>
+        <item name="colorAccent">#BF94FF</item>
+    </style>
+
+    <!-- PipeVR: Kick -->
+    <style name="LightTheme.Kick" parent="LightTheme">
+        <item name="colorPrimary">#2DB700</item>
+        <item name="colorPrimaryDark">#239000</item>
+        <item name="colorAccent">#2DB700</item>
+    </style>
+
+    <style name="DarkTheme.Kick" parent="DarkTheme">
+        <item name="colorPrimary">#1F7A08</item>
+        <item name="colorPrimaryDark">#165706</item>
+        <item name="colorAccent">#53FC18</item>
+    </style>
+
+    <style name="BlackTheme.Kick" parent="BlackTheme">
+        <item name="colorPrimary">#1F7A08</item>
+        <item name="colorPrimaryDark">#165706</item>
+        <item name="colorAccent">#53FC18</item>
+    </style>
+
+    <!-- PipeVR: Patreon -->
+    <style name="LightTheme.Patreon" parent="LightTheme">
+        <item name="colorPrimary">#FF424D</item>
+        <item name="colorPrimaryDark">#E0313B</item>
+        <item name="colorAccent">#FF424D</item>
+    </style>
+
+    <style name="DarkTheme.Patreon" parent="DarkTheme">
+        <item name="colorPrimary">#A8262E</item>
+        <item name="colorPrimaryDark">#7E1C22</item>
+        <item name="colorAccent">#FF6B73</item>
+    </style>
+
+    <style name="BlackTheme.Patreon" parent="BlackTheme">
+        <item name="colorPrimary">#A8262E</item>
+        <item name="colorPrimaryDark">#7E1C22</item>
+        <item name="colorAccent">#FF6B73</item>
+    </style>
+
+    <!-- PipeVR: Floatplane -->
+    <style name="LightTheme.Floatplane" parent="LightTheme">
+        <item name="colorPrimary">#00AEEF</item>
+        <item name="colorPrimaryDark">#0089BD</item>
+        <item name="colorAccent">#00AEEF</item>
+    </style>
+
+    <style name="DarkTheme.Floatplane" parent="DarkTheme">
+        <item name="colorPrimary">#00739E</item>
+        <item name="colorPrimaryDark">#005677</item>
+        <item name="colorAccent">#4DCBFF</item>
+    </style>
+
+    <style name="BlackTheme.Floatplane" parent="BlackTheme">
+        <item name="colorPrimary">#00739E</item>
+        <item name="colorPrimaryDark">#005677</item>
+        <item name="colorAccent">#4DCBFF</item>
+    </style>
+
+    <!-- PipeVR: Rumble -->
+    <style name="LightTheme.Rumble" parent="LightTheme">
+        <item name="colorPrimary">#5E9B2A</item>
+        <item name="colorPrimaryDark">#467520</item>
+        <item name="colorAccent">#85C742</item>
+    </style>
+
+    <style name="DarkTheme.Rumble" parent="DarkTheme">
+        <item name="colorPrimary">#3F6B1C</item>
+        <item name="colorPrimaryDark">#2E4F14</item>
+        <item name="colorAccent">#9BD95E</item>
+    </style>
+
+    <style name="BlackTheme.Rumble" parent="BlackTheme">
+        <item name="colorPrimary">#3F6B1C</item>
+        <item name="colorPrimaryDark">#2E4F14</item>
+        <item name="colorAccent">#9BD95E</item>
+    </style>
+
+    <!-- PipeVR: Odysee -->
+    <style name="LightTheme.Odysee" parent="LightTheme">
+        <item name="colorPrimary">#EF1970</item>
+        <item name="colorPrimaryDark">#B8104F</item>
+        <item name="colorAccent">#EF1970</item>
+    </style>
+
+    <style name="DarkTheme.Odysee" parent="DarkTheme">
+        <item name="colorPrimary">#A3124C</item>
+        <item name="colorPrimaryDark">#7A0D39</item>
+        <item name="colorAccent">#FF5C98</item>
+    </style>
+
+    <style name="BlackTheme.Odysee" parent="BlackTheme">
+        <item name="colorPrimary">#A3124C</item>
+        <item name="colorPrimaryDark">#7A0D39</item>
+        <item name="colorAccent">#FF5C98</item>
+    </style>
+
+    <!-- PipeVR: Dailymotion -->
+    <style name="LightTheme.Dailymotion" parent="LightTheme">
+        <item name="colorPrimary">#0D65F2</item>
+        <item name="colorPrimaryDark">#0A4DB8</item>
+        <item name="colorAccent">#0D65F2</item>
+    </style>
+
+    <style name="DarkTheme.Dailymotion" parent="DarkTheme">
+        <item name="colorPrimary">#0A47AA</item>
+        <item name="colorPrimaryDark">#073580</item>
+        <item name="colorAccent">#5C97FF</item>
+    </style>
+
+    <style name="BlackTheme.Dailymotion" parent="BlackTheme">
+        <item name="colorPrimary">#0A47AA</item>
+        <item name="colorPrimaryDark">#073580</item>
+        <item name="colorAccent">#5C97FF</item>
+    </style>
+
+    <!-- PipeVR: Vimeo -->
+    <style name="LightTheme.Vimeo" parent="LightTheme">
+        <item name="colorPrimary">#1AB7EA</item>
+        <item name="colorPrimaryDark">#128CB3</item>
+        <item name="colorAccent">#1AB7EA</item>
+    </style>
+
+    <style name="DarkTheme.Vimeo" parent="DarkTheme">
+        <item name="colorPrimary">#0F7A9E</item>
+        <item name="colorPrimaryDark">#0B5B76</item>
+        <item name="colorAccent">#5CD2F7</item>
+    </style>
+
+    <style name="BlackTheme.Vimeo" parent="BlackTheme">
+        <item name="colorPrimary">#0F7A9E</item>
+        <item name="colorPrimaryDark">#0B5B76</item>
+        <item name="colorAccent">#5CD2F7</item>
+    </style>
+
+    <!-- PipeVR: Nebula -->
+    <style name="LightTheme.Nebula" parent="LightTheme">
+        <item name="colorPrimary">#3C64F4</item>
+        <item name="colorPrimaryDark">#2B4BC0</item>
+        <item name="colorAccent">#3C64F4</item>
+    </style>
+
+    <style name="DarkTheme.Nebula" parent="DarkTheme">
+        <item name="colorPrimary">#2A46AA</item>
+        <item name="colorPrimaryDark">#1F3480</item>
+        <item name="colorAccent">#7D97FF</item>
+    </style>
+
+    <style name="BlackTheme.Nebula" parent="BlackTheme">
+        <item name="colorPrimary">#2A46AA</item>
+        <item name="colorPrimaryDark">#1F3480</item>
+        <item name="colorAccent">#7D97FF</item>
+    </style>
+
+</resources>

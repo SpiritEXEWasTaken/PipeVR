@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pipevr_followers">
+        <item quantity="one">%s follower</item>
+        <item quantity="other">%s followers</item>
+    </plurals>
+    <plurals name="pipevr_patrons">
+        <item quantity="one">%s patron</item>
+        <item quantity="other">%s patrons</item>
+    </plurals>
+</resources>

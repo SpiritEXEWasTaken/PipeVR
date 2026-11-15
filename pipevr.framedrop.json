@@ -1,0 +1,10 @@
+{
+  "schema": "framedrop.install/v1",
+  "name": "PipeVR",
+  "files": [
+    {
+      "url": "https://github.com/SpiritEXEWasTaken/PipeVR/releases/latest/download/PipeVR-arm64.apk",
+      "sha256": "abeb3033c2e618bf9f7eb39544eaed5d952a3b7959d919f47f962dfc95f4ec80"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PipeVR: Material 3 versions of the app themes (generated; edit the originals
+     and re-run the generator). Picked by ThemeHelper when Material 3 is on. -->
+<resources>
+    <style name="M3.Base" parent="M3.Base.V19">
+    </style>
+    <style name="M3.Base.BlackTheme" parent="M3.Base.V19.BlackTheme">
+    </style>
+    <style name="M3.Base.DarkTheme" parent="M3.Base.V19.DarkTheme">
+    </style>
+    <style name="M3.Base.LightTheme" parent="M3.Base.V19.LightTheme">
+    </style>
+    <style name="M3.Base.V19" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="alertDialogTheme">@style/PipeVR.M3.AlertDialog</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+        <item name="preferenceTheme">@style/PipeVR.M3.PreferenceTheme</item>
+        <item name="actionColor">@color/white</item>
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonTheme</item>
+        <item name="toolbarSearchColor">@color/white</item>
+        <item name="colorControlActivated">?attr/colorPrimary</item>
+    </style>
+    <style name="M3.Base.V19.BlackTheme" parent="M3.DarkTheme">
+        <item name="android:windowBackground">@color/black_background_color</item>
+        <item name="windowBackground">@color/black_background_color</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme.Black</item>
+        <item name="separator_color">@color/black_separator_color</item>
+        <item name="contrast_background_color">@color/black_contrast_background_color</item>
+        <item name="card_item_background_color">@color/black_card_item_background_color</item>
+        <item name="card_item_contrast_color">@color/black_card_item_contrast_color</item>
+        <item name="border_color">@color/black_border_color</item>
+        <item name="dashed_border">@drawable/dashed_border_black</item>
+    </style>
+    <style name="M3.Base.V19.DarkTheme" parent="M3.Base">
+        <item name="colorPrimary">@color/dark_youtube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_youtube_primary_color</item>
+        <item name="colorAccent">@color/dark_youtube_accent_color</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white_secondary</item>
+        <item name="android:textColorTertiary">@color/white_secondary</item>
+        <item name="android:windowBackground">@color/dark_background_color</item>
+        <item name="windowBackground">@color/dark_background_color</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme.Dark.Base</item>
+        <item name="separator_color">@color/dark_separator_color</item>
+        <item name="contrast_background_color">@color/dark_contrast_background_color</item>
+        <item name="checked_selector">@drawable/selector_checked_dark</item>
+        <item name="focused_selector">@drawable/selector_focused_dark</item>
+        <item name="toolbar_shadow">@drawable/toolbar_shadow_dark</item>
+        <item name="selector">@drawable/selector_dark</item>
+        <item name="colorControlHighlight">@color/dark_ripple_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_youtube_horizontal_dark_rounded</item>
+        <item name="card_item_background_color">@color/dark_card_item_background_color</item>
+        <item name="card_item_contrast_color">@color/dark_card_item_contrast_color</item>
+        <item name="border_color">@color/dark_border_color</item>
+        <item name="dashed_border">@drawable/dashed_border_dark</item>
+        <item name="tag_text_color">@color/white</item>
+    </style>
+    <style name="M3.Base.V19.LightTheme" parent="M3.Base">
+        <item name="colorPrimary">@color/light_youtube_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_youtube_primary_color</item>
+        <item name="colorAccent">@color/light_youtube_accent_color</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:windowBackground">@color/light_background_color</item>
+        <item name="windowBackground">@color/light_background_color</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme.Light.Base</item>
+        <item name="separator_color">@color/light_separator_color</item>
+        <item name="contrast_background_color">@color/light_contrast_background_color</item>
+        <item name="checked_selector">@drawable/selector_checked_light</item>
+        <item name="focused_selector">@drawable/selector_focused_light</item>
+        <item name="toolbar_shadow">@drawable/toolbar_shadow_light</item>
+        <item name="selector">@drawable/selector_light</item>
+        <item name="colorControlHighlight">@color/light_ripple_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_youtube_horizontal_light_rounded</item>
+        <item name="card_item_background_color">@color/light_card_item_background_color</item>
+        <item name="card_item_contrast_color">@color/light_card_item_contrast_color</item>
+        <item name="border_color">@color/light_border_color</item>
+        <item name="dashed_border">@drawable/dashed_border_light</item>
+        <item name="tag_text_color">@color/black</item>
+    </style>
+    <style name="M3.BlackSettingsTheme" parent="M3.BlackTheme">
+        <item name="colorAccent">@color/black_settings_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme" parent="M3.Base.BlackTheme">
+    </style>
+    <style name="M3.BlackTheme.Bandcamp" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bandcamp_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.BiliBili" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_bilibili_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bilibili_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bilibili_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.Collector" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_collector_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_collector_statusbar_color</item>
+        <item name="colorAccent">@color/dark_collector_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.Dailymotion" parent="M3.BlackTheme">
+        <item name="colorPrimary">#0A47AA</item>
+        <item name="colorPrimaryDark">#073580</item>
+        <item name="colorAccent">#5C97FF</item>
+    </style>
+    <style name="M3.BlackTheme.Floatplane" parent="M3.BlackTheme">
+        <item name="colorPrimary">#00739E</item>
+        <item name="colorPrimaryDark">#005677</item>
+        <item name="colorAccent">#4DCBFF</item>
+    </style>
+    <style name="M3.BlackTheme.Kick" parent="M3.BlackTheme">
+        <item name="colorPrimary">#1F7A08</item>
+        <item name="colorPrimaryDark">#165706</item>
+        <item name="colorAccent">#53FC18</item>
+    </style>
+    <style name="M3.BlackTheme.Nebula" parent="M3.BlackTheme">
+        <item name="colorPrimary">#2A46AA</item>
+        <item name="colorPrimaryDark">#1F3480</item>
+        <item name="colorAccent">#7D97FF</item>
+    </style>
+    <style name="M3.BlackTheme.NicoNico" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.Odysee" parent="M3.BlackTheme">
+        <item name="colorPrimary">#A3124C</item>
+        <item name="colorPrimaryDark">#7A0D39</item>
+        <item name="colorAccent">#FF5C98</item>
+    </style>
+    <style name="M3.BlackTheme.Patreon" parent="M3.BlackTheme">
+        <item name="colorPrimary">#A8262E</item>
+        <item name="colorPrimaryDark">#7E1C22</item>
+        <item name="colorAccent">#FF6B73</item>
+    </style>
+    <style name="M3.BlackTheme.PeerTube" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_peertube_dark_color</item>
+        <item name="colorAccent">@color/dark_peertube_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.Rumble" parent="M3.BlackTheme">
+        <item name="colorPrimary">#3F6B1C</item>
+        <item name="colorPrimaryDark">#2E4F14</item>
+        <item name="colorAccent">#9BD95E</item>
+    </style>
+    <style name="M3.BlackTheme.SoundCloud" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_soundcloud_dark_color</item>
+        <item name="colorAccent">@color/dark_soundcloud_accent_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_soundcloud_horizontal_dark</item>
+    </style>
+    <style name="M3.BlackTheme.Twitch" parent="M3.BlackTheme">
+        <item name="colorPrimary">#5C2EA8</item>
+        <item name="colorPrimaryDark">#45227E</item>
+        <item name="colorAccent">#BF94FF</item>
+    </style>
+    <style name="M3.BlackTheme.Vimeo" parent="M3.BlackTheme">
+        <item name="colorPrimary">#0F7A9E</item>
+        <item name="colorPrimaryDark">#0B5B76</item>
+        <item name="colorAccent">#5CD2F7</item>
+    </style>
+    <style name="M3.BlackTheme.YouTube" parent="M3.BlackTheme">
+    </style>
+    <style name="M3.BlackTheme.media.ccc.de" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.DarkSettingsTheme" parent="M3.DarkTheme">
+        <item name="colorAccent">@color/dark_settings_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme" parent="M3.Base.DarkTheme">
+    </style>
+    <style name="M3.DarkTheme.Bandcamp" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bandcamp_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.BiliBili" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_bilibili_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bilibili_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bilibili_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.Collector" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_collector_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_collector_statusbar_color</item>
+        <item name="colorAccent">@color/dark_collector_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.Dailymotion" parent="M3.DarkTheme">
+        <item name="colorPrimary">#0A47AA</item>
+        <item name="colorPrimaryDark">#073580</item>
+        <item name="colorAccent">#5C97FF</item>
+    </style>
+    <style name="M3.DarkTheme.Floatplane" parent="M3.DarkTheme">
+        <item name="colorPrimary">#00739E</item>
+        <item name="colorPrimaryDark">#005677</item>
+        <item name="colorAccent">#4DCBFF</item>
+    </style>
+    <style name="M3.DarkTheme.Kick" parent="M3.DarkTheme">
+        <item name="colorPrimary">#1F7A08</item>
+        <item name="colorPrimaryDark">#165706</item>
+        <item name="colorAccent">#53FC18</item>
+    </style>
+    <style name="M3.DarkTheme.Nebula" parent="M3.DarkTheme">
+        <item name="colorPrimary">#2A46AA</item>
+        <item name="colorPrimaryDark">#1F3480</item>
+        <item name="colorAccent">#7D97FF</item>
+    </style>
+    <style name="M3.DarkTheme.NicoNico" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.Odysee" parent="M3.DarkTheme">
+        <item name="colorPrimary">#A3124C</item>
+        <item name="colorPrimaryDark">#7A0D39</item>
+        <item name="colorAccent">#FF5C98</item>
+    </style>
+    <style name="M3.DarkTheme.Patreon" parent="M3.DarkTheme">
+        <item name="colorPrimary">#A8262E</item>
+        <item name="colorPrimaryDark">#7E1C22</item>
+        <item name="colorAccent">#FF6B73</item>
+    </style>
+    <style name="M3.DarkTheme.PeerTube" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_peertube_dark_color</item>
+        <item name="colorAccent">@color/dark_peertube_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.Rumble" parent="M3.DarkTheme">
+        <item name="colorPrimary">#3F6B1C</item>
+        <item name="colorPrimaryDark">#2E4F14</item>
+        <item name="colorAccent">#9BD95E</item>
+    </style>
+    <style name="M3.DarkTheme.SoundCloud" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_soundcloud_dark_color</item>
+        <item name="colorAccent">@color/dark_soundcloud_accent_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_soundcloud_horizontal_dark</item>
+    </style>
+    <style name="M3.DarkTheme.Twitch" parent="M3.DarkTheme">
+        <item name="colorPrimary">#5C2EA8</item>
+        <item name="colorPrimaryDark">#45227E</item>
+        <item name="colorAccent">#BF94FF</item>
+    </style>
+    <style name="M3.DarkTheme.Vimeo" parent="M3.DarkTheme">
+        <item name="colorPrimary">#0F7A9E</item>
+        <item name="colorPrimaryDark">#0B5B76</item>
+        <item name="colorAccent">#5CD2F7</item>
+    </style>
+    <style name="M3.DarkTheme.YouTube" parent="M3.DarkTheme">
+    </style>
+    <style name="M3.DarkTheme.media.ccc.de" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.LightSettingsTheme" parent="M3.LightTheme">
+        <item name="colorAccent">@color/light_settings_accent_color</item>
+    </style>
+    <style name="M3.LightTheme" parent="M3.Base.LightTheme">
+    </style>
+    <style name="M3.LightTheme.Bandcamp" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/light_bandcamp_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.BiliBili" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_bilibili_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_bilibili_statusbar_color</item>
+        <item name="colorAccent">@color/light_bilibili_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.Collector" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_collector_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_collector_statusbar_color</item>
+        <item name="colorAccent">@color/light_collector_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.Dailymotion" parent="M3.LightTheme">
+        <item name="colorPrimary">#0D65F2</item>
+        <item name="colorPrimaryDark">#0A4DB8</item>
+        <item name="colorAccent">#0D65F2</item>
+    </style>
+    <style name="M3.LightTheme.Floatplane" parent="M3.LightTheme">
+        <item name="colorPrimary">#00AEEF</item>
+        <item name="colorPrimaryDark">#0089BD</item>
+        <item name="colorAccent">#00AEEF</item>
+    </style>
+    <style name="M3.LightTheme.Kick" parent="M3.LightTheme">
+        <item name="colorPrimary">#2DB700</item>
+        <item name="colorPrimaryDark">#239000</item>
+        <item name="colorAccent">#2DB700</item>
+    </style>
+    <style name="M3.LightTheme.Nebula" parent="M3.LightTheme">
+        <item name="colorPrimary">#3C64F4</item>
+        <item name="colorPrimaryDark">#2B4BC0</item>
+        <item name="colorAccent">#3C64F4</item>
+    </style>
+    <style name="M3.LightTheme.NicoNico" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/light_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.Odysee" parent="M3.LightTheme">
+        <item name="colorPrimary">#EF1970</item>
+        <item name="colorPrimaryDark">#B8104F</item>
+        <item name="colorAccent">#EF1970</item>
+    </style>
+    <style name="M3.LightTheme.Patreon" parent="M3.LightTheme">
+        <item name="colorPrimary">#FF424D</item>
+        <item name="colorPrimaryDark">#E0313B</item>
+        <item name="colorAccent">#FF424D</item>
+    </style>
+    <style name="M3.LightTheme.PeerTube" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_peertube_dark_color</item>
+        <item name="colorAccent">@color/light_peertube_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.Rumble" parent="M3.LightTheme">
+        <item name="colorPrimary">#5E9B2A</item>
+        <item name="colorPrimaryDark">#467520</item>
+        <item name="colorAccent">#85C742</item>
+    </style>
+    <style name="M3.LightTheme.SoundCloud" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_soundcloud_dark_color</item>
+        <item name="colorAccent">@color/light_soundcloud_accent_color</item>
+        <item name="progress_horizontal_drawable">@drawable/progress_soundcloud_horizontal_light</item>
+    </style>
+    <style name="M3.LightTheme.Twitch" parent="M3.LightTheme">
+        <item name="colorPrimary">#9146FF</item>
+        <item name="colorPrimaryDark">#772CE8</item>
+        <item name="colorAccent">#9146FF</item>
+    </style>
+    <style name="M3.LightTheme.Vimeo" parent="M3.LightTheme">
+        <item name="colorPrimary">#1AB7EA</item>
+        <item name="colorPrimaryDark">#128CB3</item>
+        <item name="colorAccent">#1AB7EA</item>
+    </style>
+    <style name="M3.LightTheme.YouTube" parent="M3.LightTheme">
+    </style>
+    <style name="M3.LightTheme.media.ccc.de" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/light_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.RouterActivityThemeDark" parent="M3.DarkTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="M3.RouterActivityThemeLight" parent="M3.LightTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

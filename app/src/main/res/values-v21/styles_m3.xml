@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PipeVR: Material 3 versions of the app themes (generated; edit the originals
+     and re-run the generator). Picked by ThemeHelper when Material 3 is on. -->
+<resources>
+    <style name="M3.Base" parent="M3.Base.V21">
+    </style>
+    <style name="M3.Base.BlackTheme" parent="M3.Base.V21.BlackTheme">
+    </style>
+    <style name="M3.Base.DarkTheme" parent="M3.Base.V21.DarkTheme">
+    </style>
+    <style name="M3.Base.LightTheme" parent="M3.Base.V21.LightTheme">
+    </style>
+    <style name="M3.Base.V21" parent="M3.Base.V19">
+    </style>
+    <style name="M3.Base.V21.BlackTheme" parent="M3.Base.V19.BlackTheme">
+    </style>
+    <style name="M3.Base.V21.DarkTheme" parent="M3.Base.V19.DarkTheme">
+    </style>
+    <style name="M3.Base.V21.LightTheme" parent="M3.Base.V19.LightTheme">
+    </style>
+    <style name="M3.BlackTheme.Bandcamp" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bandcamp_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.PeerTube" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_peertube_statusbar_color</item>
+        <item name="colorAccent">@color/dark_peertube_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.SoundCloud" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_soundcloud_statusbar_color</item>
+        <item name="colorAccent">@color/dark_soundcloud_accent_color</item>
+    </style>
+    <style name="M3.BlackTheme.YouTube" parent="M3.BlackTheme">
+        <item name="colorPrimaryDark">@color/dark_youtube_statusbar_color</item>
+    </style>
+    <style name="M3.BlackTheme.media.ccc.de" parent="M3.BlackTheme">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.Bandcamp" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/dark_bandcamp_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.PeerTube" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_peertube_statusbar_color</item>
+        <item name="colorAccent">@color/dark_peertube_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.SoundCloud" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_soundcloud_statusbar_color</item>
+        <item name="colorAccent">@color/dark_soundcloud_accent_color</item>
+    </style>
+    <style name="M3.DarkTheme.YouTube" parent="M3.DarkTheme">
+        <item name="colorPrimaryDark">@color/dark_youtube_statusbar_color</item>
+    </style>
+    <style name="M3.DarkTheme.media.ccc.de" parent="M3.DarkTheme">
+        <item name="colorPrimary">@color/dark_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/dark_media_ccc_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.Bandcamp" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_bandcamp_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_bandcamp_statusbar_color</item>
+        <item name="colorAccent">@color/light_bandcamp_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.PeerTube" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_peertube_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_peertube_statusbar_color</item>
+        <item name="colorAccent">@color/light_peertube_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.SoundCloud" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_soundcloud_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_soundcloud_statusbar_color</item>
+        <item name="colorAccent">@color/light_soundcloud_accent_color</item>
+    </style>
+    <style name="M3.LightTheme.YouTube" parent="M3.LightTheme">
+        <item name="colorPrimaryDark">@color/light_youtube_statusbar_color</item>
+    </style>
+    <style name="M3.LightTheme.media.ccc.de" parent="M3.LightTheme">
+        <item name="colorPrimary">@color/light_media_ccc_primary_color</item>
+        <item name="colorPrimaryDark">@color/light_media_ccc_statusbar_color</item>
+        <item name="colorAccent">@color/light_media_ccc_accent_color</item>
+    </style>
+</resources>
